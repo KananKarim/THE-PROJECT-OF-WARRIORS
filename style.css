@@ -104,16 +104,15 @@
     font-family: Roboto;
 }               
 
-                                        /* FIRST SECTION DIV BOTTOM */
+                                        /* FIRST SECTION css code */
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
                                         
  .section-2 .container-2{     
         width: 85%;                                  
         margin: auto;                                   
         font-family: Roboto; 
-        margin-bottom: 100px;                                   
+        margin-bottom: 150px;                                   
  }
                                                                                             /* CONTAINER */
                                         
@@ -144,7 +143,6 @@ top: -30px;
 position: relative;
 z-index: 1;
 width: 270px;
-
 }
                                         
                                         
@@ -187,7 +185,257 @@ font-weight: bold;
     width: 45%;
     font-weight: 400;    
 }
-                                            /* DIV BOTTOM */
+                                            /* CSS CODE FOR SECOND SECTION */
+
+
+
+.section3 .container3{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 150px;
+    font-family: Roboto;
+}
+.section3 .container3 h2{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+
+}
+.section3 .main3{
+    display: flex;
+    margin-top: 70px;
+}
+.section3 .main3 p{
+    width: 70%;
+    margin-top: -15px;
+    font-size: 18px;
+    
+}
+.section3 .main3 h4{
+    color: #1E4681;
+    font-size: 25px;
+}
+                                                    /* SECTION-3 CSS */
+
+
+
+.section4 .container4{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 130px;
+    font-family: Roboto;
+}
+.section4 .container4 h2{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+}
+.section4 .container4 .list1{
+    width: 100%;
+}
+.section4 .container4 .list1 ul li{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    width: 50%;
+}
+
+                                                        /* SECTION-4 CSS */
+
+.section-5 {
+    height: 1300px;
+    margin: 0;
+    padding: 0;
+}
+.container-5 {
+    width: 85%;
+    margin: auto;
+}
+.section-5 h1 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.section-5 .bottom {
+    display: flex;
+    height: 900px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.section-5 .bottom .main-div {
+    width: 30%;
+    border-radius: 10%;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.section-5 .h-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px ;
+    width: 100%;
+}
+.section-5 .bottom img {
+width: 100%;
+height: 50%;
+}
+.section-5 .bottom  h3 {
+    padding-left: 10px;
+    font-size: 19px;
+}
+.section-5 .bottom p{
+    padding-left: 10px;
+}
+
+
+
+                                            /* SECTION-5 CSS */
+
+
+
+
+
+.section-6 {
+    margin: 0;
+    padding: 0;
+    background: rgba(239, 239, 239, 1);
+    ;
+}
+.container-6 {
+    width: 85%;
+    margin: auto;
+    height: 600px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-6 h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.container-6 .text {
+    width:47%;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 15px;
+}
+.container-6 .text p {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+.container-6 .text .text-bottom {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.container-6 .text .text-bottom-right {
+ padding: 15px 0 0 15px;
+}
+
+
+                                        /* SECTION-6 CSS CODE */
+
+
+.section7{
+    height:  700px;
+    background-color: #9DC9C8;
+    font-family: 'Roboto', sans-serif;
+} 
+.container-7 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+.section7 h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.section7 .second{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.section7 .third{
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0;
+}
+.section7 .bottom{
+    display: flex;
+    width: 90%;
+}
+
+.section7 .left{
+    width: 35%;
+
+}
+.section7 .right{
+    width: 35%;
+}
+
+.section7 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.section7 .under{
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+}
+
+
+                                                /* SECTION 7 CSS CODE */
+.section8{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.section8 .container{
+    width: 85%;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.section8 .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ig, .fb, .wk, .viber{
+    margin-right: 20px;
+}
+.section8 .top-left-image img{
+    height: 25px;
+    width: 25px;
+}
+.section8 .top-right {
+    height: 60px;
+font-size: 16px;
+width: 17%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.section8 .bottom p {
+    margin: 0;
+    padding: 0;
+}
+
+
+                            /* SECTION-8 CSS CODE */
+
+
+
+
 
 @media screen and (min-width:824px) and (max-width:1279px) {
     .container1{
@@ -281,7 +529,98 @@ margin-top:10px;
     font-size: 15px;
 }
                                                  /* MEDIA FOR SECTION-2 TABLET */
-}
+
+   .section3 .container3{
+    width: 70%;
+   } 
+   .section3 .container3 h2{
+    font-size: 32px;
+   }
+   .section3 .main3 p{
+    font-size: 11px;
+   }
+   .section3 .main3 h4{
+    font-size: 15px;
+   }
+                                                    /* MEDIA FOR SECTION-3 TABLET */
+
+    .section4 .container4{
+        width: 70%;
+    }
+    .section4 .container4 h2{
+        font-size: 32px;
+    }
+    .section4 .container4 .list1 ul li{
+        font-size: 14px;
+        width: 60%;
+    }
+                                                        /* MEDIA FOR SECTION-4 */
+
+        .section-5 {
+            height: 1000px;
+        }
+        .section-5 h1 {
+            padding: 0;
+        }
+        .section-5 .main-div img{
+            width: 100%;
+            height: 50%;
+        }
+
+                                                /* MEDIA SECTION-5 TABLET */
+                
+        .container-6 h1 {
+            font-size: 45px;
+            font-weight: 700;
+        }
+        .container-6 .text {
+            width:55%;
+    }
+         .container-6 .text p {
+       font-size: 12px;
+    }
+        .container-6 .text-bottom-right {
+        padding: 30px 0 0 15px;
+       }
+    .container-6 .text-bottom-right h2 {
+        font-size: 17px;
+    }
+
+                                                /* MEDIA SECTION-6 TABLET */
+       .section7 .bottom{
+        display: flex;
+        width: 90%;
+    }
+    .section7 h1 {
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .section7 .second {
+        font-size: 30px;
+    }
+    
+    .section7 .left{
+        width: 55%;
+    
+    }
+    .section7 .right{
+        width: 55%;
+    }
+
+                                                    /* MEDIA SECTION-7 TABLET */
+    
+    .section8 .top-right {
+    height: 60px;
+    font-size: 16px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    
+    }
+                                                     /* MEDIA SECTION-8 TABLET */
+
 
 
 
@@ -390,6 +729,112 @@ margin-top:10px;
 }
                                                 /* MEDIA FOR MOBILE SECTION-2 */
 
+.section3 .container3 .main3{
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3 .container3 h2{
+    font-size: 26px;
+} 
+.section3 .container3 h4{
+    font-size: 16px;
+}
+.section3 .container3 .main3 .content3{
+    width: 100%;
+}
+.section3 .container3 p{
+    font-size: 14px;
+    width: 400px;
+}
+                                                    /* MEDIA FOR MOBILE SECTION-3 */
+
+
+    .section4 .container4 h2{
+        font-size: 26px;
+    }
+    .section4 .container4 .list1 ul li{
+        font-size: 14px;
+        width: 500px;
+    }
+
+                                                        /* Media for mobile section-4 */
+     .section-5 {
+    height: 3150px;
+    width: 700px;
+}
+.container-5 .bottom {
+    display: block;
+}
+.section-5 .bottom  h3 {
+    font-size: 15px;
+}
+.container-5 .bottom .main-div {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.container-5 .bottom .main-div p {
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+                                                        /* Media for mobile section-5 */
+    .container-6 {
+        height: 700px;
+    }
+    .section-6 {
+        width: 800px;
+    }
+    .section-6 .text-bottom-left img {
+        width: 88%;
+    }
+    .container-6 h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+   .container-6 .text {
+        width:100%;
+    }
+    .container-6 .text h2 {
+       font-size: 16px;
+    }
+                                                        
+.section7 {
+    height:1150px;
+    width: 800px;
+}
+.section7 .bottom{
+    display: flex;
+    width: 100%;
+}
+.section7 h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+.section7 .second {
+    font-size: 30px;
+}
+
+.section7 .left{
+    width: 85%;
+
+}
+.section7 .right{
+    width: 85%;
+}
+                                                            /* Media for mobile section-7 */
+.section8{
+    width: 800px;
+}
+.section8 .top {
+    display: block;
+}
+.section8 .top-right {
+    width: 60%;
+    padding-top: 20px;
+}
 }
 
                                         
