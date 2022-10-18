@@ -276,7 +276,6 @@ font-weight: bold;
 }
 .section-5 .bottom img {
 width: 100%;
-height: 50%;
 }
 .section-5 .bottom  h3 {
     padding-left: 10px;
@@ -564,7 +563,7 @@ margin-top:10px;
         }
         .section-5 .main-div img{
             width: 100%;
-            height: 50%;
+            
         }
 
                                                 /* MEDIA SECTION-5 TABLET */
